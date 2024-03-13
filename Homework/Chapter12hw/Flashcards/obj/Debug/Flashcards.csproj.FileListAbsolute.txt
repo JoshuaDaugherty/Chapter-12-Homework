@@ -1,0 +1,10 @@
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\bin\Debug\Flashcards.exe.config
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\bin\Debug\Flashcards.exe
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\bin\Debug\Flashcards.pdb
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\obj\Debug\Flashcards.csproj.AssemblyReference.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\obj\Debug\Flashcards.frmFlashCards.resources
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\obj\Debug\Flashcards.Properties.Resources.resources
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\obj\Debug\Flashcards.csproj.GenerateResource.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\obj\Debug\Flashcards.csproj.CoreCompileInputs.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\obj\Debug\Flashcards.exe
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\Flashcards\obj\Debug\Flashcards.pdb

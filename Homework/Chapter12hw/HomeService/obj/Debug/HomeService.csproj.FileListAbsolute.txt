@@ -1,0 +1,10 @@
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\bin\Debug\HomeService.exe.config
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\bin\Debug\HomeService.exe
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\bin\Debug\HomeService.pdb
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\obj\Debug\HomeService.csproj.AssemblyReference.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\obj\Debug\HomeService.frmHomeService.resources
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\obj\Debug\HomeService.Properties.Resources.resources
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\obj\Debug\HomeService.csproj.GenerateResource.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\obj\Debug\HomeService.csproj.CoreCompileInputs.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\obj\Debug\HomeService.exe
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\HomeService\obj\Debug\HomeService.pdb

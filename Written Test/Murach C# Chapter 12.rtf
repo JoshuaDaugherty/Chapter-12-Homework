@@ -1,0 +1,563 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\fswiss\fprq2\fcharset0 Calibri;}{\f2\fmodern\fprq1\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue0;}
+{\*\generator Riched20 10.0.22621}{\*\mmathPr\mnaryLim0\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\brdrb\brdrs\brdrw75\brdrcf1 \nowidctlpar\hyphpar0\li-630\cf1\b\f0\fs28 Chapter 12: How to create and use classes\par
+Murach's C#\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\fs36\par
+
+\pard\nowidctlpar\hyphpar0\li-630\b\fs22 MULTIPLE CHOICE\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 1.\tab In a three-layer application, the three layers are\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell the business layer, the middle layer, and the database layer\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell the presentation layer, the access layer, and the database layer\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 c.\cell\highlight0 the presentation layer, the middle layer, and the database layer\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell the presentation layer, the middle layer, and the dataset layer\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 2.\tab When you develop an application using a three-layer architecture, what is the layer that provides the user interface called?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 a.\cell\highlight0 the presentation layer\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell the business layer\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell the middle layer\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell the dataset layer\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 3.\tab A class defines the properties and methods of\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell a structure\cell\highlight2 c.\cell\highlight0 an object\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell a value\cell d.\cell a member\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 4.\tab The process of creating an object from a class is known as\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 a.\cell\highlight0 instantiation\cell c.\cell inheritance\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell encapsulation\cell d.\cell modeling\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 5.\tab What feature are you taking advantage of when you call the ToDecimal() method of the Convert class without knowing how it\rquote s coded?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell instantiation\cell c.\cell inheritance\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0 encapsulation\cell d.\cell modeling\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 6.\tab Two objects created from the same class can have different\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell fields\cell\highlight2 c.\cell\highlight0 data\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell methods\cell d.\cell properties\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 7.\tab A class file that you add to a project has the extension\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell cs\cell c.\cell cls\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0 class\cell d.\cell clss\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 8.\tab To begin the declaration for a property, you code the public keyword followed by\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell the name of the property\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell the name of the property and its arguments\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 c.\cell\highlight0 the data type and the name of the property\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell the data type, the name of the property, and the arguments\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 9.\tab A read-only property consists of just\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell a get method\cell c.\cell a set accessor\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell a set method\cell\highlight2 d.\cell\highlight0 a get accessor\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 10.\tab You can use an auto-implemented property when\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell you don\rquote t need to store the value of the property in an instance variable\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0 you want the getter and setter to simply return and set the value of an instance variable\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell you want the instance variable that\rquote s associated with the property to be public\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell you want the property to be private\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 11.\tab Which of the following defines a public read/write auto-implemented property named FirstName?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell\b\f2\fs18 public string FirstName \{ get firstName; set firstName; \}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell\b\f2\fs18 private string FirstName \{ get; set; \}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 c.\cell\highlight0\b\f2\fs18 public string FirstName \{ get; set; \}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 public string FirstName \{ get, set \}\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 12.\tab Which of the following is \i not\i0  a valid way to instantiate an Employee object?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell\b\f2\fs18 Employee emp = new Employee();\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell\b\f2\fs18 var emp = new Employee();\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 c.\cell\highlight0\b\f2\fs18 Employee emp = new();\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 Employee emp = new;\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 13.\tab Which of the following is a way to use an object initializer to rewrite the following code?\par
+
+\pard\keep\hyphpar0\widctlpar\b\f2\fs18 Employee emp = new Employee();\par
+emp.FirstName = "Roger";\par
+
+\pard\keep\hyphpar0\widctlpar\sa120 emp.LastName = "Miller";\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell\b\f2\fs18 Employee emp = new Employee \{ \par
+    "Roger", "Miller" \par
+\};\par
+\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0\b\f2\fs18 Employee emp = new Employee \{ \par
+    FirstName = "Roger", \par
+    LastName = "Miller" \par
+\};\par
+\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell\b\f2\fs18 Employee emp = new Employee \{ \par
+    emp.FirstName = "Roger", \par
+    emp.LastName = "Miller" \par
+\};\par
+\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 Employee emp = new Employee \{ \par
+    emp.FirstName = "Roger"; \par
+    emp.LastName = "Miller"; \par
+\};\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\fs22\tab 14.\tab Given an object named o, which of the following statements checks whether this object is of the Product type and converts it to a Product object named p if it is?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 a.\cell\highlight0\b\f2\fs18 if (o.GetType() == typeof(Product) then p) \{ // code that uses p \}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell\b\f2\fs18 if (o == Product then p) \{ // code that uses p \}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell\b\f2\fs18 if (o typeof Product p) \{ // code that uses p \}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 if (o is Product p) \{ // code that uses p \}\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 15.\tab Given the following method, which of the following choices is an example of overloading?\par
+
+\pard\keep\hyphpar0\widctlpar\sa120\b\f2\fs18 public int ParseNumber(String numberString)\{...\}\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell\b\f2\fs18 public int Parse(String numberString)\{...\}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0\b\f2\fs18 public int ParseNumber(String num)\{...\}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell\b\f2\fs18 public decimal ParseNumber(String numberString)\{...\}\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 public int ParseNumber(String numberString, String entry)\{...\}\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 16.\tab To begin the declaration for a constructor, you code the public keyword followed by\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell the name of the property\cell\highlight2 c.\cell\highlight0 the name of the class\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell the data type of the class\cell d.\cell the arguments\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 17.\tab Which of the following statements creates an instance of an Account class using the default constructor and stores the object that\rquote s created in a variable named account?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell\b\f2\fs18 var account = Account();\b0\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\f0\fs22 b.\cell\b\f2\fs18 Account account = new();\b0\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\f0\fs22 c.\cell\b\f2\fs18 Account account = Account.GetInstance();\b0\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2\f0\fs22 d.\cell\highlight0\b\f2\fs18 Account account = var Account();\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 18.\tab Assume you have a string variable named firstName and an int variable named age. Which of the following statements creates an instance of the Account class using the constructor with the following declaration?\par
+
+\pard\keep\hyphpar0\widctlpar\sa120\b\f2\fs18 public Account(string firstName, int age) \{ \}\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell\b\f2\fs18 var account = Account(age, firstName);\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0\b\f2\fs18 Account account = Account(firstName, age);\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell\b\f2\fs18 Account account = new(age, firstName);\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 Account account = new(firstName, age);\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 19.\tab Which of the following statements sets the value of the Age property of an Account object named account to the value in a variable named newAge?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 a.\cell\highlight0\b\f2\fs18 account.Age = newAge;\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell\b\f2\fs18 account.Age(newAge);\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell\b\f2\fs18 account.SetAge(newAge);\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 account.Age.Value = newAge;\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+\par
+\par
+\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 20.\tab What happens when this statement is executed?\par
+
+\pard\keep\hyphpar0\widctlpar\sa120\b\f2\fs18 Automobile car = new(1);\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2\b0\f0\fs22 a.\cell\highlight0 An object of the Automobile class is created.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell An object of the Automobile class is declared, but not created.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell A constructor that accepts a string in the Automobile class is called.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell The default constructor in the Automobile class is called.\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 21.\tab To make a method in a class available to other classes, you begin the method declaration with\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 a.\cell\highlight0 the public keyword\cell c.\cell the void keyword\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell the private keyword\cell d.\cell the return keyword\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 22.\tab When you\rquote re entering the C# code for a form and want to refer to a static method in another class, you start with \par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell the name of an object created from the class that contains the method\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0 the name of the class that contains the method\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell the name of the method\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell the this keyword\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 23.\tab When can you \i not\i0  code a method using an expression body?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell When the method returns a simple expression\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell When the method returns a compound expression\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell When the method executes a single statement\cell\row\trowd\trgaph45\trleft-45\trrh230\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 d.\cell\highlight0 When the method executes multiple statements\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 24.\tab Which operator can you use to code an expression-bodied property or method?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell the wildcard operator (*)\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell the assignment operator (=)\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 c.\cell\highlight0 the lambda operator (=>)\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell the conditional operator (?:)\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 25.\tab Which of the following statements rewrites the following code using an expression body?\par
+
+\pard\keep\hyphpar0\widctlpar\tx4590\b\f2\fs18 public decimal SalesTax\par
+
+\pard\keep\hyphpar0\widctlpar\{\par
+    get\par
+    \{\par
+        return total * SalesTaxPct;\par
+    \{\par
+
+\pard\keep\hyphpar0\widctlpar\sa120\{\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell\b\f2\fs18 public decimal SalesTax \{ get \{ return total * SalesTaxPct; \} \};\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell\b\f2\fs18 public decimal SalesTax \{ total * SalesTaxPct \};\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 c.\cell\highlight0\b\f2\fs18 public decimal SalesTax => get \{ total * SalesTaxPct \};\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 public decimal SalesTax => total * SalesTaxPct;\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+\par
+\par
+\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 26.\tab Which of the following defines a read-only property named Title that\rquote s initialized to \ldblquote Entry Error\rdblquote .\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell\b\f2\fs18 public string Title \{ get; set; \} = "Entry Error";\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0\b\f2\fs18 public string Title \{ get; \} = "Entry Error";\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell\b\f2\fs18 public string Title \{ set; \} = "Entry Error";\b0\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell\b\f2\fs18 public string Title \{ readonly; \} = "Entry Error";\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 27.\tab To browse the classes in a solution, you can use\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 a.\cell\highlight0 The Solution Explorer\cell c.\cell a class diagram\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell The Class Details window\cell d.\cell the CodeLens feature\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 28.\tab Which of the following declares a property named Code that must be assigned a value when an instance of the class is created?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell\b\f2\fs18 public string Code \{ get; set; \}\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2\b0 b.\cell\highlight0\b\f2\fs18 public string Code \{ get; init; \}\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0 c.\cell\b\f2\fs18 public required string Code \{ get; set; \}\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0 d.\cell\b\f2\fs18 public static string Code \{ get; set; \}\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 29.\tab Which of the following declares a property named Code that is read-only but can have a value assigned by a constructor or an object intializer?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell\b\f2\fs18 public string Code \{ get; set; \}\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2\b0 b.\cell\highlight0\b\f2\fs18 public string Code \{ get; init; \}\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0 c.\cell\b\f2\fs18 public required string Code \{ get; set; \}\f0\fs22\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0 d.\cell\b\f2\fs18 public static string Code \{ get; set; \}\b0\f0\fs22\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 30.\tab Which of the following is \i not\i0  true about a structure?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell A structure requires less memory and instantiates faster than a class.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell You can code members for a structure just as you can for a class.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell You can code more than one constructor for a structure.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 d.\cell\highlight0 A structure lets you instantiate a reference type just like a class.\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 31.\tab A record struct is basically the same as a structure, with which important difference?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell A record struct is a reference type.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell A record struct can use the equality operator (==) for comparison.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 c.\cell\highlight0 A record struct allows inheritance.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell A record struct is less efficient.\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 32.\tab Unlike a class, a record\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 a.\cell\highlight0 defines a value type.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell has an Equals() method that compares the values of it properties.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell can\rquote t define a constructor.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell can\rquote t be inherited.\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+\par
+\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 33.\tab When should you use a record?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell Your object is complex, has many methods, or you need to create a hierarchy.\cell\row\trowd\trgaph45\trleft-45\trrh240\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 b.\cell\highlight0 Your object primarily stores data and is small enough to copy efficiently.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell Your object primarily stores data, you want a reference type, and you want to compare objects based on values.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell Your object primarily stores data, is small enough to copy efficiently, and you want improved equality comparison.\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sb120\sa120\tab 34.\tab When should you use a record struct?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell Your object is complex, has many methods, or you need to create a hierarchy.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell Your object primarily stores data and is small enough to copy efficiently.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell Your object primarily stores data, you want a reference type, and you want to compare objects based on values.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\highlight2 d.\cell\highlight0 Your object primarily stores data, is small enough to copy efficiently, and you want improved equality comparison.\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508\fs22\par
+}
+ 

@@ -1,0 +1,10 @@
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\bin\Debug\BankLogin.exe.config
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\bin\Debug\BankLogin.exe
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\bin\Debug\BankLogin.pdb
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\obj\Debug\BankLogin.csproj.AssemblyReference.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\obj\Debug\BankLogin.frmBankLogin.resources
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\obj\Debug\BankLogin.Properties.Resources.resources
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\obj\Debug\BankLogin.csproj.GenerateResource.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\obj\Debug\BankLogin.csproj.CoreCompileInputs.cache
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\obj\Debug\BankLogin.exe
+C:\Users\janic\Downloads\chapter 9-11 homework\Chapter12hw\BankLogin\obj\Debug\BankLogin.pdb
